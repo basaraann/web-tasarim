@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>İLETİŞİM</title>
+	<!-- Css -->
+	<link href="site.css" rel="stylesheet">
+
+	
+	<title>Web Teknoloji Projesi</title>
+       
+    
+</head>
+<body style="background-color:#113355">
+    <header>
+    <h1 class="baslık">İLETİŞİM</h1>
+    <img class="headeresim" src="header1.jpg">
+    </header>
+    <nav>
+    <div class="container">
+        <div class="row">
+            <ul style="list-style-type: none;" class="bar">
+                <li><a href="HAKKIMDA.html">HAKKIMDA</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="ŞEHRİM.html">ŞEHRİM</a></li>
+                <li><a href="MİRASIMIZ.html">MİRASIMIZ</a></li>
+                <li><a href="İLGİ ALANLARIM.html">İLGİ ALANLARIM</a></li>
+                <li><a href="LOGİN.html">LOGİN</a></li>
+                <li><a href="İLETİŞİM.html">İLETİŞİM</a></li>
+            </ul>
+    </div>
+    </div>
+    </nav>
+	<div class="container" id="x">
+        
+        <div class="row" id="y">
+            <div class="col-sm-12 col-lg-12" >
+                <h3 class="iletisim">İletişime Geçmek İçin</h3>
+            </div>
+
+            <div class="col-8 col-sm-8 col-md-8 col-lg-6">
+                
+                <form action="iletisimBilgi.html" class="formm" name="myform" onsubmit="return control()">
+                  <label for="adi">Adınız:</label>
+                  <input type="text" name="adi" class="form-control mt-3">
+                  <label for="adi" class="forminput1">Soyadınız:</label>
+                  <input type="text" class="form-control mt-3" name="soyadi" placeholder="Soyadınızı Giriniz">
+                  <label for="email" class="forminput1">E-Posta Adresinizi Giriniz.</label>
+                  <input type="email" class="form-control" id="email" placeholder="E-Posta adresinizi Giriniz" name="email">
+                  
+				  <label for="adi" class="forminput1">Telefon Numaranızı Giriniz.</label>
+                  <input type="text" class="form-control mt-3" name="tel" placeholder="5555555555" pattern=[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2} maxlength="10">
+ 
+				  <label for="cinsiyet" class="forminput1">Cinsiyetiniz:</label>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                    <label class="form-check-label" name="cinsiyet" value="Kadın" for="radio2">Kadın</label>
+                  </div>
+				  
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                    <label class="form-check-label" name="cinsiyet" value="Erkek" for="radio1">Erkek</label>
+                  </div>
+
+                 
+
+                  <label for="adi" class="forminput1">Şehrinizi Seçiniz:</label>
+                  <select class="form-select mt-3" name="sehir">
+                    
+                    <option value="1">Adana</option>
+                    <option value="2">Adıyaman</option>
+                    <option value="3">Afyonkarahisar</option>
+                    <option value="4">Ağrı</option>
+                    <option value="5">Amasya</option>
+                    <option value="6">Ankara</option>
+                    <option value="7">Antalya</option>
+                    <option value="8">Artvin</option>
+                    <option value="9">Aydın</option>
+                    <option value="10">Balıkesir</option>
+                    <option value="11">Bilecik</option>
+                    <option value="12">Bingöl</option>
+                    <option value="13">Bitlis</option>
+                    <option value="14">Bolu</option>
+                    <option value="15">Burdur</option>
+                    <option value="16">Bursa</option>
+                    <option value="17">Çanakkale</option>
+                    <option value="18">Çankırı</option>
+                    <option value="19">Çorum</option>
+                    <option value="20">Denizli</option>
+                    <option value="21">Diyarbakır</option>
+                    <option value="22">Edirne</option>
+                    <option value="23">Elazığ</option>
+                    <option value="24">Erzincan</option>
+                    <option value="25">Erzurum</option>
+                    <option value="26">Eskişehir</option>
+                    <option value="27">Gaziantep</option>
+                    <option value="28">Giresun</option>
+                    <option value="29">Gümüşhane</option>
+                    <option value="30">Hakkâri</option>
+                    <option value="31">Hatay</option>
+                    <option value="32">Isparta</option>
+                    <option value="33">Mersin</option>
+                    <option value="34">İstanbul</option>
+                    <option value="35">İzmir</option>
+                    <option value="36">Kars</option>
+                    <option value="37">Kastamonu</option>
+                    <option value="38">Kayseri</option>
+                    <option value="39">Kırklareli</option>
+                    <option value="40">Kırşehir</option>
+                    <option value="41">Kocaeli</option>
+                    <option value="42">Konya</option>
+                    <option value="43">Kütahya</option>
+                    <option value="44">Malatya</option>
+                    <option value="45">Manisa</option>
+                    <option value="46">Kahramanmaraş</option>
+                    <option value="47">Mardin</option>
+                    <option value="48">Muğla</option>
+                    <option value="49">Muş</option>
+                    <option value="50">Nevşehir</option>
+                    <option value="51">Niğde</option>
+                    <option value="52">Ordu</option>
+                    <option value="53">Rize</option>
+                    <option value="54">Sakarya</option>
+                    <option value="55">Samsun</option>
+                    <option value="56">Siirt</option>
+                    <option value="57">Sinop</option>
+                    <option value="58">Sivas</option>
+                    <option value="59">Tekirdağ</option>
+                    <option value="60">Tokat</option>
+                    <option value="61">Trabzon</option>
+                    <option value="62">Tunceli</option>
+                    <option value="63">Şanlıurfa</option>
+                    <option value="64">Uşak</option>
+                    <option value="65">Van</option>
+                    <option value="66">Yozgat</option>
+                    <option value="67">Zonguldak</option>
+                    <option value="68">Aksaray</option>
+                    <option value="69">Bayburt</option>
+                    <option value="70">Karaman</option>
+                    <option value="71">Kırıkkale</option>
+                    <option value="72">Batman</option>
+                    <option value="73">Şırnak</option>
+                    <option value="74">Bartın</option>
+                    <option value="75">Ardahan</option>
+                    <option value="76">Iğdır</option>
+                    <option value="77">Yalova</option>
+                    <option value="78">Karabük</option>
+                    <option value="79">Kilis</option>
+                    <option value="80">Osmaniye</option>
+                    <option value="81">Düzce</option>
+                  </select>
+
+
+                  <p class="forminput1">Sizinle Nasıl İletişime Geçelim?</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+                    <label class="form-check-label" for="check1">E-Posta</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+                    <label class="form-check-label" for="check2">Telefon</label>
+                  </div>
+
+
+                  <div class="mb-3 mt-3">
+                    <label for="comment" >Mesajınız:</label>
+                    <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Mesajınızı Giriniz..." ></textarea>
+                  </div>
+
+                  <button id="butonn"type="submit" class="btn btn-primary">Gönder</button>
+                  <input id="butonn" class="btn btn-primary" type="reset" value="Temizle">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+		function control()
+		{
+		  var x = document.forms["myform"]["adi"].value;
+		  if (x == "") 
+		  {
+			alert("İsim boş bırakılamaz.");
+			return false;
+		  }
+	  
+		  var z = document.forms["myform"]["soyadi"].value;
+		  if (z == "") 
+		  {
+			alert("Soyadı boş bırakılamaz.");
+			return false;
+		  }
+	  
+		  var m = document.forms["myform"]["tel"].value;
+		  if (m == "") 
+		  {
+			alert("Telefon numarası boş bırakılamaz.");
+			return false;
+		  }
+		  
+	  
+	  
+		  var y = document.forms["myform"]["email"].value;
+		  if (y == "") 
+		  {
+			alert("E-Posta adresi Boş bırakılamaz");
+			return false;
+		  }
+	  
+		  var forMail = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+.)+([.])+[a-zA-Z0-9.-]{2,4}$/;
+		  if (forMail.test(y) == false) 
+		  {
+			alert("Geçersiz Mail Adresi!!!");
+			return false;
+		  }
+		}	
+		</script>	
+	  <footer class="bg-dark text-center text-white">   
+        <div class="container p-3 pb-0">     
+          <section class="mb-3">      
+            <a href="https://www.instagram.com/bugra.basaran/" target="_blank"> <img class="FootIg" src="ig.png"> </a>
+            <a href="mailto:basaranb805@gmail.com" target="_blank"> <img class="FootIg" src="gm.png"> </a>
+            <a href="https://github.com/basaraann" target="_blank"> <img class="FootIg" src="gh.png"> </a>      
+          </section>    
+        </div>    
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          BUĞRA BAŞARAN
+        </div> 
+      </footer>
+</body>
+</html>
